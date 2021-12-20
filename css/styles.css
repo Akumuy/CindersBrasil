@@ -1,0 +1,132 @@
+.special {
+  text-align: center;
+  font-size: 18px;
+  word-wrap: normal;
+  height: 25px;
+border-bottom: 3px solid #ab966f;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.3); }
+.wiki_link {
+display: inline-block;
+max-width: 100% !Important;
+}
+.homesprite{position:absolute;top:15px;left:15px;width:220px;height:120px;vertical-align:middle;margin-right:5px;background-image: url('/file/Dark-Souls-3/homesprite.png'); background-repeat:no-repeat;}.homesprite.general_button{background-position: 0px 0px;}.homesprite.character_button{background-position: 0px -125px;}.homesprite.equipment_button{background-position: 0px -250px;}.homesprite.online_button{background-position: 0px -375px;}.homesprite.world_button{background-position: 0px -500px;}.homesprite.guides_button{background-position: 0px -625px;}.homesprite.tools_button{background-position: 0px -750px;}.homesprite.media_button{background-position: 0px -875px;}
+.fexbar {position:relative;display:inline-block;margin:5px;padding:3px;width:220px;height:120px}
+.fexbar a {position:absolute;top:3px;left:3px;width:220px;height:120px;text-indent:-9999px}
+blockquote p {
+font-family: "arial";
+color: #B4B2B0;
+font-style: italic;
+font-weight: normal;
+text-indent: 48px;
+font-size: 17px;
+max-width: 800px;
+}
+@media only screen and (max-width: 836px) {
+img, input {
+max-width: 100% !important;
+}
+iframe, object, embed {
+display: inline-block;
+max-width: 100%;
+}
+.bonfire {line-height:inherit !Important}
+.titlearea {line-height:inherit !Important; height:inherit !Important}
+}
+.spoilertitle { cursor: pointer; padding-left: 10px; background-color: #7C6C50; background-image: linear-gradient(to right, #AB966F, #000); color: #EEE; font-size: 15px; font-weight: bold; line-height: 24px }
+#.spoilercontent { height: 0px; overflow: hidden; transition: height 0.5s ease 0s }
+.spoilercontent { height: 0px; transition: height 0.5s ease 0s }
+/******* Col Spans *****************/
+.span_1_of_5 {
+width: 19% !important;
+border-style: solid;
+border-color: #AB966F #AB966F;
+margin: 0.4% !important;
+}
+@media only screen and (max-width: 480px) {
+.span_3_of_12,
+.span_1_of_7,
+.span_2_of_6,
+.span_1_of_1,
+.span_1_of_2,
+.span_1_of_3,
+.span_2_of_8,
+.span_1_of_5 {
+width: 100% !important;
+}}
+.row {
+margin-right: 0px;
+margin-left: 0px;
+}
+p {
+font-size: 14px;
+}
+.videoWrapper {
+position: relative;
+padding-bottom: 56.25%; /* 16:9 */
+padding-top: 25px;
+height: 0;
+}
+.videoWrapper iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.titlearea {
+text-align: center;
+font-size: 18px;
+word-wrap: normal;
+background
+background-position: 3px 4px;
+border-top: 3px solid #ab966f;
+border-bottom: 3px solid #ab966f;
+margin: 18px 0px;
+height: 45px;
+line-height: 40px;
+}
+.bonfire {
+word-wrap: normal;
+background:
+padding-left: 52px;
+height: 60px;
+line-height: 70px;
+text-align: -moz-left;
+}
+
+.popover-content .wiki_table{margin:0px 0!Important;}
+
+#wiki-content-block #ifrmDiv{position:absolute !important;}
+
+
+
+.gsc-webResult.gsc-result {
+
+    padding: .25em;
+    border: none !important;
+    margin-bottom: 0;
+}
+.gsc-above-wrapper-area {
+
+    border-bottom: none !important;
+    padding: 5px 0 5px 0;
+}
+.cse .gsc-webResult.gsc-result:hover, .gsc-webResult.gsc-result:hover, .gsc-webResult.gsc-result.gsc-promotion:hover, .gsc-results .gsc-imageResult-classic:hover, .gsc-results .gsc-imageResult-column:hover {
+
+    border: none !important;
+}
+.gsc-tabsArea {
+
+    margin-top: 12px;
+    margin-bottom: 0;
+    height: 29px;
+    border-bottom: none !important;
+}
+.gsc-result-info-container {
+
+    text-align: left;
+    display: none !important;
+}
