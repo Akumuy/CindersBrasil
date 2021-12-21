@@ -2,12 +2,12 @@
 
 <head>
   <title>Cinders Brasil</title>
-  <link rel="stylesheet" type="text/css" href="./css/estilo.css">
-  <link rel="stylesheet" type="text/css" href="./css/styles-global-min.css">
-  <link rel="stylesheet" href="./css/glyphiconfallback6-min.css">
-  <link rel="stylesheet" href="./css/theme-general.css">
-  <link rel="stylesheet" href="./css/styles.css">
-  <link rel="shortcut icon" type="imagem/x-icon" href="./css/ImagensCinders/tumblr_inline_nxeeqaPJK01sjhna2_250.gif" />
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <link rel="stylesheet" type="text/css" href="css/styles-global-min.css">
+  <link rel="stylesheet" href="css/glyphiconfallback6-min.css">
+  <link rel="stylesheet" href="css/theme-general.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" type="imagem/x-icon" href="css/ImagensCinders/tumblr_inline_nxeeqaPJK01sjhna2_250.gif" />
 </head>
 <!--  -->
 
@@ -34,13 +34,17 @@
               <ul class="dropdown-menu">
                 <li><a href="inicial.html" itemprop="url"><span class="navsprite miniring"></span>Home</a></li>
               </ul>
+              <li class="dropdown" itemprop="name"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                role="button" aria-haspopup="true" aria-expanded="false"><span
+                  class="navsprite b"></span>Personagem<span class="hidden-lg"> Informação</span><span
+                  class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li> <a href="classes.html"><span class="navsprite miniring"></span>Classes</a> </li>
               </ul>
             </li>
             <li class="dropdown" itemprop="name"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
                 role="button" aria-haspopup="true" aria-expanded="false"><span
-                  class="navsprite c"></span>Equipamentos<span class="hidden-lg"> &amp; Magias</span><span
+                  class="navsprite c"></span>Equipamentos<span class="hidden-lg"> &amp; Magic</span><span
                   class="caret"></span></a>
               <ul class="dropdown-menu">
                 </li>
@@ -138,7 +142,146 @@
   <div class="conteiner-fluid">
     <div class="box">
       <div class="row">
+        <div class="col-m-6">
+          <div id="page-content">
+            <li style="line-height: 28px;"> Entrar em qualquer aliança encontrada em Lothric afeta a mecânica do multijogador de várias maneiras.
+              Cumprir os deveres de um covenant concede ao jogador certos tokens, que podem ser devolvidos ao líder do covenant para desbloquear recompensas únicas. Cada convênio também concede um certo bônus enquanto equipado.
+              
+              Os convênios podem ser trocados em tempo real equipando seus respectivos itens de convênio.
+              
+              A devoção da aliança pode ser aumentada oferecendo-se símbolos da aliança a seus respectivos líderes enquanto o emblema da aliança é equipado.
+            </li>
+            
+            <h1 style="text-align: center;"><span>Covenants</span></h1>
+            <table style="box-shadow: inset 0 0 1em rgb(0, 0, 0), 0 0 1em rgb(162, 0, 0); margin-left: 50px; ">
 
+              <table class="table">
+                <tr>
+                  <th>Covenant</th>
+                  <th class="menu-icon-cell">Lider</th>
+                  <th class="menu-icon-cell">Tokens</th>
+                  <th class="menu-icon-cell">Efeito quando Equipado</th>
+                </tr>
+                <tr>
+                  <td>Aldrich Faithful</td>
+                  <td class="stat-data-cell">Archdeacon McDonnell</td>
+                  <td class="stat-data-cell">Human Dregs</td>
+                  <td class="stat-data-cell">Aumenta dano Dark em 5%/7.5%/10%/12.5%/15%</td>
+                </tr>
+                <tr>
+                  <td>Darkmoon Faithful</td>
+                  <td class="stat-data-cell">Company Captain Yorshka</td>
+                  <td class="stat-data-cell">Proof of a Concord Kept</td>
+                  <td class="stat-data-cell">Recupera 13/15/17/21/26 FP por segundo</td>
+                </tr>
+                <tr>
+                  <td>Blue Sentinels</td>
+                  <td class="stat-data-cell">Company Captain Yorshka</td>
+                  <td class="stat-data-cell">Proof of a Concord Kept</td>
+                  <td class="stat-data-cell">	Aumenta maximo FP em 10%/15%/20%/25%/30%</td>
+                </tr>
+                <tr>
+                  <td>Chaos Servants</td>
+                  <td class="stat-data-cell">Cornyx</td>
+                  <td class="stat-data-cell">Fire Seed</td>
+                  <td class="stat-data-cell">Aumenta dano de Fogo em 5%/7.5%/10%/12.5%/15%</td>
+                </tr>
+                <tr>
+                  <td>Company of Champions</td>
+                  <td class="stat-data-cell">Domhnall of Zena</td>
+                  <td class="stat-data-cell">Awestone</td>
+                  <td class="stat-data-cell">Aumenta Dano e Resistencia de Dano em 50%.
+                    Aumenta Maximo FP, HP e Stamina em 5%/7.5%/10%/12.5%/15%.</td>
+                </tr>
+                <tr>
+                  <td>Conjurator's Pact</td>
+                  <td class="stat-data-cell">Conjurator Ellie</td>
+                  <td class="stat-data-cell">Ritual Incense</td>
+                  <td class="stat-data-cell">Aumenta a Resistencia de Dano da Conjuração em 10%/20%/30%/40%/50%</td>
+                </tr>
+                <tr>
+                  <td>Dragon Remnants</td>
+                  <td class="stat-data-cell">Hawkwood the Deserter<br>
+                    Archdragon Peak Altar</td>
+                  <td class="stat-data-cell">	Dragon Eye</td>
+                  <td class="stat-data-cell">Aumenta Maxima Stamina em 10%/15%/20%/25%/30%</td>
+                </tr>
+                <tr>
+                  <td>Mound Makers</td>
+                  <td class="stat-data-cell">Sacrificial Altar</td>
+                  <td class="stat-data-cell">	Vertebra Shackle</td>
+                  <td class="stat-data-cell">Aumenta Dano Fisico em 5%/7.5%/10%/12.5%/15%</td>
+                </tr>
+                <tr>
+                  <td>Pilgrims of Dark</td>
+                  <td class="stat-data-cell">Karla</td>
+                  <td class="stat-data-cell">	Abyssal Fragment</td>
+                  <td class="stat-data-cell">Aumenta Velocidade de Conjuração em 10/15/20/25/30</td>
+                </tr>
+                <tr>
+                  <td>Rosaria's Fingers</td>
+                  <td class="stat-data-cell">Rosaria, Mother of Rebirth</td>
+                  <td class="stat-data-cell">	Pale Tongue</td>
+                  <td class="stat-data-cell">Aumenta Quantidade de Almas de Inimigos em 10%/15%/20%/25%/30%</td>
+                </tr>
+                <tr>
+                  <td>Servant of the Rat</td>
+                  <td class="stat-data-cell">Remy the Rat</td>
+                  <td class="stat-data-cell">	Rat Tail</td>
+                  <td class="stat-data-cell">Aumenta toda Resistencia e Defesas em 5%/7.5%/10%/12.5%/15%</td>
+                </tr>
+                <tr>
+                  <td>Spears of the Church</td>
+                  <td class="stat-data-cell">Filianore's Altar</td>
+                  <td class="stat-data-cell">Filianore's Spear Ornament</td>
+                  <td class="stat-data-cell">Recupera 3/4/5/6/7 de HP por segundo</td>
+                </tr>
+                <tr>
+                  <td>Thieves' Pact</td>
+                  <td class="stat-data-cell">Greirat</td>
+                  <td class="stat-data-cell">Lost Trinket</td>
+                  <td class="stat-data-cell">Aumenta Descobrimento de Itens em +20/40/60/80/100</td>
+                </tr>
+                <tr>
+                  <td>Vinheim Scholars</td>
+                  <td class="stat-data-cell">Orbeck of Vinheim</td>
+                  <td class="stat-data-cell">Crystal Fragment</td>
+                  <td class="stat-data-cell">	Aumenta dano Magico em 5%/7.5%/10%/12.5%/15%</td>
+                </tr>
+                <tr>
+                  <td>Warriors of Sunlight</td>
+                  <td class="stat-data-cell">Solaire of Astora<br>
+                    Altar of Sunlight</td>
+                  <td class="stat-data-cell">Sunlight Medal</td>
+                  <td class="stat-data-cell">Aumenta Dano de Raio em 5%/7.5/10%/12.5%/15%</td>
+                </tr>
+                <tr>
+                  <td>Watchdogs of Farron</td>
+                  <td class="stat-data-cell">Old Wolf of Farron</td>
+                  <td class="stat-data-cell">	Wolf's Blood Swordgrass</td>
+                  <td class="stat-data-cell">Reduz Consumo de Stamina para Armas e Magias em 10%/15%/20%/25%/30%</td>
+
+                </tr>
+                <tr>
+                  <td>Way of Blue</td>
+                  <td class="stat-data-cell">High Priestess Emma</td>
+                  <td class="stat-data-cell">Grateful Soul</td>
+                  <td class="stat-data-cell">Aumenta o HP Maximo em 10%/15%/20%/25%/30%</td>
+                </tr>
+                <tr>
+                  <td>Way of White</td>
+                  <td class="stat-data-cell">Irina of Carim</td>
+                  <td class="stat-data-cell">Holy Fragment</td>
+                  <td class="stat-data-cell">Aumenta a Recuperação de HP do Frasco de Estus em 10%/20%/30%/40%/50%</td>
+                </tr>
+                
+          </div>
+          </tbody>
+          </table>
+
+
+
+        </div>
 
 
 
@@ -148,8 +291,28 @@
       </div>
     </div>
   </div>
+  </div>
 
 </body>
+<style> 
+th{
+  background-color:rgb(162, 0, 0);
+
+}
+table{
+  border:rgb(162, 0, 0);
+
+}
+  
+  
+  
+  
+
+
+
+</style>
+
+
 
 <script src="https://code.jquery.com/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
